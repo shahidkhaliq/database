@@ -142,6 +142,8 @@ custom_formats:
   score: 0
 - name: Foreign Release Groups
   score: -900
+- name: Not Freeleech
+  score: -100000
 - name: AV1
   score: -999999
 - name: Banned Groups (Efficient)

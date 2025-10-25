@@ -1,0 +1,10 @@
+name: Not Freeleech
+description: Checks if the release is not freeleech.
+tags: []
+conditions:
+- flag: freeleech
+  name: Not Freeleech
+  negate: true
+  required: false
+  type: indexer_flag
+tests: []
